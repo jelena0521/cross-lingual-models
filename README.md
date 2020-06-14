@@ -1,2 +1,2 @@
 # cross-lingual-models
-classification among 100 different languages
+the paper titled [**Cross-lingual Language Model Pretraining**](https://arxiv.org/abs/1901.07291) by Facebook AI, named XLM, presents an improved version of BERT to achieve state-of-the-art results in both classification and translation tasks.XLM uses a known pre-processing technique (BPE) and a dual-language training mechanism with BERT in order to learn relations between words in different languages. The model outperforms other models in a cross-lingual classification task (sentence entailment in 15 languages) and significantly improves machine translation when a pre-trained model is used for initialization of the translation model.
